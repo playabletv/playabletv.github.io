@@ -1,0 +1,53 @@
+
+/* http://playable.tv/index.css */
+
+h1, h2, h3 { font-size: 100%; font-weight: normal; }
+div, p, li, ol, ul, blockquote, h1, h2, h3, pre { margin: 0pt; padding: 0pt; }
+cite { font-style: normal; }
+body { margin: 0pt; padding: 0pt; background: rgb(255, 255, 255) none repeat scroll 0% 0%; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous; color: rgb(85, 85, 85); font-family: Arial, Helvetica,sans-serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.4em; font-size-adjust: none; font-stretch: normal; -x-system-font: none; font-size: 11pt; text-align: center; }
+#awesome { margin: 0pt auto; width: 500px; padding-left: 14px; padding-right: 14px; text-align: left; }
+img { border: 0px solid rgb(238, 238, 238); }
+p img { vertical-align: top; }
+p img + img { margin-left: 10px; }
+a:link, a:visited, a:hover, a:active { color: inherit; text-decoration: none; }
+/* a:hover { color: rgb(255, 128, 0); text-decoration: underline; } */
+a:hover { color: #ff2200; text-decoration: underline; }
+div#awesome p:hover a, div#awesome div:hover a { text-decoration: underline; }
+.internetexplorer a:link, .internetexplorer a:visited, .internetexplorer a:hover, .internetexplorer a:active { color: rgb(255, 128, 0); }
+h1 { margin: 24px 0pt 0pt; color: rgb(255, 128, 0); }
+.blurb { color: rgb(221, 221, 221); margin-top: 0px; }
+.entry { margin: 24px 0pt; position: relative; }
+.entry + .entry { margin-top: 56px; }
+p, ul, ol, h3, blockquote, pre { margin-top: 14px; }
+h3 { color: rgb(255, 128, 0); }
+ul, ol { list-style-position: outside; }
+li { color: rgb(255, 128, 0); }
+ol li { list-style-type: decimal; list-style-image: none; list-style-position: outside; }
+ul li { list-style-type: disc; }
+li span { color: rgb(85, 85, 85); }
+blockquote { position: relative; }
+blockquote .hello_quote_open, blockquote .hello_quote_close { margin: 0px; color: rgb(255, 128, 0); position: absolute; vertical-align: middle; font-size: 40px; line-height: 40px; font-family: georgia; font-weight: bold; }
+blockquote .hello_quote_open { right: 505px; top: -4px; }
+blockquote .hello_quote_close { bottom: -21px; padding-left: 4px; }
+.internetexplorer blockquote .hello_quote_open, .internetexplorer blockquote .hello_quote_close { color: rgb(85, 85, 85); position: static; font-size: 1em; line-height: 1.4em; padding-left: 0pt; }
+.hello_quote_source span { color: rgb(255, 128, 0); }
+.hello_quote_source { margin-top: 0pt; color: rgb(119, 119, 119); }
+p.published { color: rgb(221, 221, 221); }
+code { font-family: "Courier New",Courier,Monospace; color: rgb(153, 153, 153); }
+code .cr_c { color: rgb(153, 153, 153); }
+code.hello_code_html .cr_ta { color: rgb(102, 102, 102); }
+code.hello_code_css .cr_kw, code.hello_code_css .cr_cl, code.hello_code_css .cr_ps { color: rgb(102, 102, 102); }
+code.hello_code_css .cr_ke, code.hello_code_css .cr_vl, code.hello_code_css .cr_cr { color: rgb(153, 153, 153); }
+code.hello_code_css .cr_op { color: rgb(119, 119, 119); }
+/* added by anisci */
+.TITLE {color: #959595;
+	font-size: 24px;
+	letter-spacing: 3px;
+	font-family: Arial, Helvetica,sans-serif;}
+.MAIN_COPY {font-size: 24px;
+	color: #707070;
+	text-decoration: none;
+	font-style: normal;
+	letter-spacing: 0px;
+	font-family: Arial, Helvetica,sans-serif;;
+	line-height: 20px;}
